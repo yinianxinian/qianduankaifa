@@ -1,0 +1,13 @@
+function getByClass(parent,tagName,className){
+  var aEls=parent.getElementsByTagName(tagName);
+  var arr=[];
+  for(var i=0;i<aLi.length;i++){
+    var aClassName=aLi[i].className.split(' ');
+    for(var j=0;j<aClassName.length;j++){
+      if(aClassName == className ){
+        arr.push(aEls[i]);
+        break;
+      }
+    }
+  }
+}
